@@ -20,3 +20,11 @@ letters_in_abdullahi = []
 for letter in name:
     letters_in_abdullahi.append(letter.title())
     print(letters_in_abdullahi)
+
+
+# get each numer in a range of numeber
+numbers = [1, 2, 3, 4, 5]
+
+# print each number in numbers variable
+for number in numbers:
+    print("hello")
