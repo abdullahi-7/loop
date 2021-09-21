@@ -23,8 +23,11 @@ for letter in name:
 
 
 # get each numer in a range of numeber
-numbers = [1, 2, 3, 4, 5]
+#numbers = [1, 2, 3, 4, 5]
 
 # print each number in numbers variable
-for number in numbers:
-    print("hello")
+# for number in numbers:
+#     print("hello")
+
+for number in range(1,5):
+    print(number)
