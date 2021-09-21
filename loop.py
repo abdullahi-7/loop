@@ -36,3 +36,8 @@ letters_in_uniform = []
 for letter in letters:
     letters_in_uniform.append(letter)
     print(letters_in_uniform[-1])
+
+#ecsirse 3
+ 
+for number in range (20,100):
+    print(number)
