@@ -22,9 +22,17 @@
 #for number in range(1,5):
 #    print(number)
 
-#ecsirse
+#ecsirse1
 
 cars = ["lanbagini", "brado", "bandrom"]
 cars.append("ferari")    
 for car in cars:
     print(f"my car is {car}")
+
+#ecsirse 2
+letters = "uniform"
+letters_in_uniform = []
+
+for letter in letters:
+    letters_in_uniform.append(letter)
+    print(letters_in_uniform[-1])
