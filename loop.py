@@ -41,3 +41,10 @@ for letter in letters:
  
 for number in range (20,100):
     print(number)
+
+
+## while loop
+sharti = 5
+while sharti > 0:
+    sharti = sharti - 1 
+    print (f"hello{sharti}")
