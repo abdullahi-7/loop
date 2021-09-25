@@ -12,8 +12,16 @@ def loop():
 
 
     name = 5
-
     while name > 0:
         name = name -1
         print(f"hellow{name}")
-    loop()
+
+
+    while True:
+        uniform = "abdul"
+        if uniform == "bdull":
+            print("abdu")
+        else:
+            print("it is ab")
+        
+        
