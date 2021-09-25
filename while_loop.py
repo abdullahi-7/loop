@@ -1,27 +1,42 @@
-# a fuction in  has a loop when we call fuction we call in the loop
-def loop():
-    for number in range (20,100):
-        print(number)
+# calling fuction inside a while loop
+# def num():
+#     for number in range (20,30):
+#         print(number)
 
 
-    letters = "abdullahi"
-    letters_in_abdullahi = []
+#     letters = "abdullahi"
+#     letters_in_abdullahi = []
 
-    for letter in letters:
-        print(letters_in_abdullahi.append(letter))
-
-
-    name = 5
-    while name > 0:
-        name = name -1
-        print(f"hellow{name}")
+#     for letter in letters:
+#         letters_in_abdullahi.append(letter)
+#         print(letters_in_abdullahi[-1])
 
 
-    while True:
-        uniform = "abdul"
-        if uniform == "bdull":
-            print("abdu")
-        else:
-            print("it is ab")
+#     name = 5
+#     while name > 0:
+#         name = name -1
+#         print (f"hellow{name}")
         
-loop()        
+
+# sharti = 3
+# while True:
+#     if sharti == 0:
+#         break
+#     num()
+#     sharti = sharti - 1  
+
+#     print(f"\n this is sharti number{sharti}")
+
+
+subjects = ["math", "english", "kisw", "kisw", "math", "scie","math"]
+
+for subject in subjects:
+    if subject == "math":
+        subjects.remove(subject)
+print(subjects)
+
+# def deleeete(list_name, element):
+#     rm = list_name.remove(element)
+#     print(rm)
+
+# deleeete(subjects, "math")
