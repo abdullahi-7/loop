@@ -16,3 +16,4 @@ def loop():
     while name > 0:
         name = name -1
         print(f"hellow{name}")
+    loop()
