@@ -48,3 +48,12 @@ sharti = 5
 while sharti > 0:
     sharti = sharti - 1 
     print (f"hello{sharti}")
+
+while True:
+    name = "ab"
+    if name == "b":
+        print("bla bla")
+    else:
+        print("it is ab")
+        #continue
+        
