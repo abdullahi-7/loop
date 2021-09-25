@@ -24,4 +24,4 @@ def loop():
         else:
             print("it is ab")
         
-        
+loop()        
